@@ -13,3 +13,6 @@ management:
   endpoint:
     shutdown:
       enabled: true
+logging:
+  level:
+    hello.controller: debug
