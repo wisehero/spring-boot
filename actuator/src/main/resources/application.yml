@@ -1,0 +1,8 @@
+management:
+  endpoints:
+    jmx:
+      exposure:
+        include: "*""
+  endpoint:
+    shutdown:
+      enabled: true
